@@ -1,17 +1,4 @@
 public class Power {
-    public static void main(String[] args) {
-
-        int a = 2;
-        int b = 10;
-        int mod = 20;
-
-        System.out.println(pow(a, b));
-        System.out.println(powMod(a, b, mod));
-        System.out.println(binPowRec(a, b));
-        System.out.println(binPowSupper(a, b));
-        System.out.println(binPowSupperMod(a, b, mod));
-    }
-
     static int pow(int num, int pow) {
 
         int res = 1;
